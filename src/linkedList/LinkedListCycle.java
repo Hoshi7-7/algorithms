@@ -1,3 +1,5 @@
+package linkedList;
+
 public class LinkedListCycle {
     // Definition for singly-linked list.
     public static class ListNode {
