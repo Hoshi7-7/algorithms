@@ -1,3 +1,5 @@
+package slidingWindow;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,7 +22,7 @@ public class LongestRepeatingCharacterReplacement {
             map.put(c, map.getOrDefault(c, 0) + 1);
             maxFreq = Math.max(maxFreq, map.get(c));
             // Current window size is (i - start + 1)
-            if (i - start + 1 - maxFreq > k) { 
+            if (i - start + 1 - maxFreq > k) {
                 // We need to shrink the window from the left
                 // example: AABABBA, k = 1
                 // when we reach the second B at index 4, the window is AABAB
