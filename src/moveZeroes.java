@@ -2,7 +2,7 @@ public class moveZeroes {
     /*
     leetcode link: https://leetcode.com/problems/move-zeroes/
     Time complexity: O(n), where n is the length of the input array nums.
-    
+
      */
     public void moveZeroes(int[] nums) {
         int p = 0;
