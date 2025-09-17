@@ -35,7 +35,7 @@ public class KokoEatingBananas {
             If the total hours needed is less than or equal to h, it means Koko can eat all bananas at this speed or slower.
             So, we try to find a slower speed by moving the right pointer to mid.
             Otherwise, if the total hours needed is greater than h, it means Koko needs to eat faster.
-            So, we move the left pointer to mid + 1.    
+            So, we move the left pointer to mid + 1.
              */
             if(hours<=h){
                 right = mid;
